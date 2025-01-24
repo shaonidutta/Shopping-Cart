@@ -1,0 +1,43 @@
+.invoice-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 7px;
+  gap: 4px;
+  min-width: 100px;
+  height: auto;
+  background: linear-gradient(90deg, #d433e1 0%, #ff7a59 100%);
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.workflow-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 5px;
+  gap: 4px;
+
+  min-width: 200px;
+  height: auto;
+
+  background: linear-gradient(90deg, #ffc006 0%, #ff7a59 100%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-text {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  letter-spacing: 0.05em;
+  text-align: center;
+
+  color: #fafafa;
+}

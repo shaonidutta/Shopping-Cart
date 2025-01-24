@@ -1,0 +1,16 @@
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 12%;
+    /* max-width: 149px; */
+    height: auto;
+    order: 0;
+    align-self: stretch;
+   
+  }
+
+  

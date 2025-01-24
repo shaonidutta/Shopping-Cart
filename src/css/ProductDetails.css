@@ -1,0 +1,333 @@
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: auto;
+  /* max-width: 674px; */
+  height: auto;
+  order: 1;
+  align-self: stretch;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+  height: auto;
+  order: 0;
+  align-self: stretch;
+}
+
+.Product-name {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: auto;
+  /* max-width: 122px; */
+  height: auto;
+  order: 1;
+}
+
+.Product-name-text {
+  width: 122px;
+  height: 26px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #231f20;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+
+  width: auto;
+  height: auto;
+
+  order: 1;
+  align-self: stretch;
+}
+
+.quantity-text {
+  width: 674px;
+  height: 19px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #002854;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.quantity-input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 4px 8px;
+
+  width: 674px;
+  height: 19px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.quantity-input-text {
+  width: 35px;
+  height: 19px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #002854;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.line1 {
+  width: "674px";
+  height: "0px";
+  border: "1px solid #D9DFE6";
+  transform: "rotate(180deg)";
+  flex: "none";
+  order: 2;
+}
+
+.configuration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+
+  width: 674px;
+  height: 22px;
+  order: 3;
+  align-self: stretch;
+}
+
+.configuration-text {
+  width: 674px;
+  height: 19px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #002854;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.config-input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 4px 8px;
+
+  width: 674px;
+  height: 19px;
+  order: 4;
+  align-self: stretch;
+  
+}
+
+.config-input-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #002854;
+}
+
+.line2 {
+  width: "674px";
+  height: "0px";
+  border: "1px solid #D9DFE6";
+  transform: "rotate(180deg)";
+  flex: "none";
+  order: 5;
+}
+
+.add-ons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 0;
+  gap: 8px;
+  width: 674px;
+  height: auto;
+  flex: none;
+  order: 5;
+  align-self: stretch;
+}
+
+.add-ons-text {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #002854;
+  margin-bottom: 8px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+}
+
+.add-ons {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 674px;
+  height: 90px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.add-ons-space {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+
+  width: calc(50% - 8px);
+  height: 90px;
+
+  border: 1px solid #d9dfe6;
+  border-radius: 4px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.new-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+
+  width: 301px;
+  height: 70px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 301px;
+  height: 21px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.add-on-price {
+  width: 276.33px;
+  height: 21px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+
+  color: #002854;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.add-on-detail {
+  width: 301px;
+  height: 42px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #002854;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

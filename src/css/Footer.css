@@ -1,0 +1,114 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+
+  width: 674px;
+  height: 32px;
+
+  flex: none;
+  order: 6;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.footer-space {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 315px;
+  height: 32px;
+
+  flex: none;
+}
+
+.update-config {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 0px;
+
+  width: 132px;
+  height: 32px;
+
+  flex: none;
+}
+
+.update-config-text {
+  white-space: nowrap;
+  /* text-transform: lowercase; */
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #00a0fb;
+  order: 0;
+  cursor:pointer;
+}
+
+.line{
+  width: 32px;
+  height: 0px;
+  border: 1px solid #d9dfe6;
+  transform: rotate(90deg);
+
+  flex: none;
+  order: 1;
+}
+
+.delete-product-space {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 147px;
+  height: 32px;
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.delete-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 150px;
+  height: 19px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.delete-product-text {
+  width: 150px;
+  height: 19px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #b41f30;
+  order: 0;
+ 
+  cursor:pointer;
+}
