@@ -1,8 +1,14 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('App Component', () => {
+ 
+
+  it('applies the app-main class to the main container', () => {
+    render(<App />);
+
+    // Check if the main container has the correct class
+    const container = screen.getByRole('main'); // Use the correct role or selector
+    expect(container).toHaveClass('app-main');
+  });
 });

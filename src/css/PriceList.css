@@ -5,7 +5,7 @@
   padding: 0px;
   gap: 4px;
   width:auto;
-  max-width: 297px;
+  max-width: 20%;
   height: auto;
 
   flex: none;
@@ -42,8 +42,6 @@
   line-height: 26px;
   text-align: right;
   color: #231f20;
-
-  flex: none;
   order: 0;
   white-space: nowrap;
 }
@@ -55,16 +53,16 @@
   padding: 0px;
   gap: 8px;
 
-  width: 183px;
-  height: 21px;
+  width: auto;
+  height: auto;
 
   order: 2;
-  flex-grow: 0;
+  
 }
 
 .list-price-text {
-  width: 68px;
-  height: 21px;
+  width: auto;
+  height: auto;
 
   font-family: "Red Hat Display";
   font-style: normal;
@@ -74,7 +72,7 @@
   text-align: right;
 
   color: #002854;
-  flex: none;
+ 
 }
 
 .list-price-value {
@@ -91,9 +89,8 @@
 
   color: #8094aa;
 
-  flex: none;
   order: 1;
-  flex-grow: 0;
+  
 }
 
 .discount-price-container {
@@ -103,8 +100,9 @@
   padding: 0px;
   gap: 8px;
 
-  width: 297px;
-  height: 21px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
 
   flex: none;
   order: 2;
@@ -119,18 +117,20 @@
   align-items: center;
   padding: 0px;
   gap: 4px;
-  width: 297px;
-  height: 21px;
-  flex: none;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+
   order: 0;
   align-self: stretch;
-  flex-grow: 0;
+ 
 }
 
 
 .savings {
-  width: 114px;
-  height: 21px;
+  width: auto;
+  height: auto;
+  
 
   font-family: "Red Hat Display";
   font-style: normal;
@@ -147,8 +147,8 @@
 }
 
 .discount-percent {
-  width: 71px;
-  height: 21px;
+  width: auto;
+  height: auto;
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 500;
@@ -156,16 +156,16 @@
   line-height: 21px;
   text-align: right;
   color: #b41f30;
-  flex: none;
+
   order: 2;
-  flex-grow: 0;
+  
 }
 
 
 .additional-savings {
-  width: 297px;
-  height: 42px;
-
+  width: auto;
+  height: auto;
+  max-width: 100%;
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 500;
@@ -178,7 +178,7 @@
   flex: none;
   order: 3;
   align-self: stretch;
-  flex-grow: 0;
+ 
 }
 
 .info-icon {
@@ -188,8 +188,9 @@
   padding: 0px;
   gap: 10px;
 
-  width: 24px;
-  height: 21px;
+  width: auto;
+  height: auto;
+ 
 
   flex: none;
   order: 2;

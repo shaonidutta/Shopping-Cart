@@ -16,7 +16,7 @@ const Layout: React.FC = () => {
       );
 
       return (
-        <Box key={product.id} className="product-container">
+        <Box key={product.id} className="product-container" data-testid="product-container">
           <ProductList productImage={product.productImage} />
           <ProductDetails product={product} />
           <PriceList priceDetails={priceDetails} />

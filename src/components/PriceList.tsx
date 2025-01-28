@@ -22,16 +22,20 @@ const PriceList: React.FC<PriceListProps> = ({ priceDetails }) => {
 
   return (
     <Box className="price-list">
-      <div className="price">
+      <Box className="price">
         <Typography className="price-text">{priceDetails.price}</Typography>
-      </div>
+      </Box>
       <Box className="list-price">
         <Typography className="list-price-text">List Price</Typography>
         <Typography className="list-price-value">
           {priceDetails.listPrice}
         </Typography>
         <Box className="info-icon">
-          <InfoOutlinedIcon color="primary" className="custom-icon"/>
+          <InfoOutlinedIcon
+            color="primary"
+            className="custom-icon"
+            data-testid="info-icon"
+          />
         </Box>
       </Box>
       <Box className="discount-price-container">
@@ -39,8 +43,10 @@ const PriceList: React.FC<PriceListProps> = ({ priceDetails }) => {
           <Box className="tag">
             <img src={tagIcon} alt="Tag Icon" className="tag-icon" />
           </Box>
-          
-          <Typography className="savings">You Save {priceDetails.savings}</Typography>
+
+          <Typography className="savings">
+            You Save {priceDetails.savings}
+          </Typography>
           <Typography className="discount-percent">
             {priceDetails.discount}
           </Typography>

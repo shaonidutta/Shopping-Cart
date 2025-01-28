@@ -35,16 +35,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
         </Typography>
         <Typography className="quantity-input-text">invoices</Typography>
       </Box>
-      <Box 
-        sx={{
-          width: "674px",
-          height: "0px",
-          border: "1px solid #D9DFE6",
-          transform: "rotate(180deg)",
-          flex: "none",
-          order: 2,
-          flexGrow: 0,
-        }}
+      <Box className='line1'
+        
       />
       <Box className="configuration">
         <Typography className="configuration-text">Configurations</Typography>
@@ -55,7 +47,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
         </Typography>
       </Box>
 
-      <Box
+      <Box className='line2'
         sx={{
           width: "674px",
           height: "0px",
